@@ -11,10 +11,11 @@ wget https://snapshots.linaro.org/gnu-toolchain/13.0-2022.11-1/aarch64-linux-gnu
 tar -xvf gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
 ```
 
+## Kernel Feature
+    - Wireless injection
+    - RNDIS
 
-## USB Wireless card support
-
-- RNDIS Support
+## USB Wireless card
 
 ### Mediatek
 
