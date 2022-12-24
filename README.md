@@ -17,17 +17,8 @@ tar -xvf gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
     - Digital TV support 
     - Software defined radio support
     - Autoselect ancillary drivers (tuners, sensors, i2c, spi, frontends)
-
-## USB SDR 
-
-    - AirSpy
-    - HackRF
-    - Mirics MSi2500
-    - RTL2830 DVB-T
-    - RTL2832 DVB-T
-    - RTL2832 SDR
-    - Labs Si2168
-
+    - USB Modem (CDC ACM) support
+    - USB Gadget (HID-BAD_USB)
 
 ## USB Wireless card
 
@@ -58,7 +49,29 @@ tar -xvf gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
 
     - ZD1211/ZD1211B
 
+## USB SDR 
 
+    - AirSpy
+    - HackRF
+    - Mirics MSi2500
+    - RTL2830 DVB-T
+    - RTL2832 DVB-T
+    - RTL2832 SDR
+    - Labs Si2168
+
+
+## USB Gadget (BAD_USB_HID)
+    - Generic serial bulk in/out
+    - Abstract Control Model (CDC ACM) 
+    - Object Exchange Model (CDC OBEX) 
+    - Network Control Model (CDC NCM) 
+    - Ethernet Control Model (CDC ECM)
+    - Ethernet Control Model (CDC ECM) subset
+    - RNDIS
+    - Ethernet Emulation Model (EEM)
+    - Mass Storage
+    - Phonet Protocol
+    - HID Function
 
 ## Ressources
 
