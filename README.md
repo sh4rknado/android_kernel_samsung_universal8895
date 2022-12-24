@@ -14,6 +14,20 @@ tar -xvf gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
 ## Kernel Feature
     - Wireless injection
     - RNDIS
+    - Digital TV support 
+    - Software defined radio support
+    - Autoselect ancillary drivers (tuners, sensors, i2c, spi, frontends)
+
+## USB SDR 
+
+    - AirSpy
+    - HackRF
+    - Mirics MSi2500
+    - RTL2830 DVB-T
+    - RTL2832 DVB-T
+    - RTL2832 SDR
+    - Labs Si2168
+
 
 ## USB Wireless card
 
