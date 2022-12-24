@@ -2,22 +2,13 @@
 
 ## Cross Compiler 
 
-### Google cross-compiler
-
-aarch64-linux-android-4.9 toolchain
-
-```
-git clone https://github.com/GrowtopiaJaw/aarch64-linux-android-4.9.git -b google --single-branch aarch64-linux-android-4.9
-```
-
-Source: https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
-
-### Linaro
+### Linaro (latest-version)
 
 gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf 
 
 ```
-git clone https://github.com/GrowtopiaJaw/aarch64-linux-android-4.9.git -b linaro --single-branch gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf
+wget https://snapshots.linaro.org/gnu-toolchain/13.0-2022.11-1/aarch64-linux-gnu/gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
+tar -xvf gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
 ```
 
-Source: https://releases.linaro.org/components/toolchain/binaries/latest-4/aarch64-elf/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf.tar.xz
+Source: https://snapshots.linaro.org/gnu-toolchain/13.0-2022.11-1/aarch64-linux-gnu/gcc-linaro-13.0.0-2022.11-x86_64_aarch64-linux-gnu.tar.xz
