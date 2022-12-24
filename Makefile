@@ -258,7 +258,7 @@ ARCH		?= arm64
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 
 # Manual Build
-CROSS_COMPILE	?= ../aarch64-linux-android-4.9/bin/aarch64-linux-android-
+CROSS_COMPILE	?= ../gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf/bin/aarch64-elf-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
